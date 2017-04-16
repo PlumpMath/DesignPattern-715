@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.moree.strategyPattern</OriginalElement>
+  <nodes>
+    <node x="63.62499999999997" y="0.0">site.moree.strategyPattern.fly.FlyBehavior</node>
+    <node x="162.125" y="83.0">site.moree.strategyPattern.Duck</node>
+    <node x="223.0" y="166.0">site.moree.strategyPattern.ModelDuck</node>
+    <node x="283.125" y="83.0">site.moree.strategyPattern.quack.Squeak</node>
+    <node x="211.5" y="0.0">site.moree.strategyPattern.quack.QuackBehavior</node>
+    <node x="0.0" y="83.0">site.moree.strategyPattern.fly.FlyWithWings</node>
+    <node x="58.62499999999997" y="166.0">site.moree.strategyPattern.MallardDuck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.moree.strategyPattern.Duck" target="site.moree.strategyPattern.quack.QuackBehavior">
+      <point x="21.25" y="-16.5" />
+      <point x="225.875" y="58.0" />
+      <point x="249.5" y="58.0" />
+      <point x="-38.0" y="16.5" />
+    </edge>
+    <edge source="site.moree.strategyPattern.ModelDuck" target="site.moree.strategyPattern.Duck">
+      <point x="-32.25" y="-16.5" />
+      <point x="255.25" y="141.0" />
+      <point x="225.875" y="141.0" />
+      <point x="21.25" y="16.5" />
+    </edge>
+    <edge source="site.moree.strategyPattern.fly.FlyWithWings" target="site.moree.strategyPattern.fly.FlyBehavior">
+      <point x="0.0" y="-16.5" />
+      <point x="71.0" y="58.0" />
+      <point x="95.37499999999997" y="58.0" />
+      <point x="-31.75" y="16.5" />
+    </edge>
+    <edge source="site.moree.strategyPattern.Duck" target="site.moree.strategyPattern.fly.FlyBehavior">
+      <point x="-21.25" y="-16.5" />
+      <point x="183.375" y="58.0" />
+      <point x="158.87499999999997" y="58.0" />
+      <point x="31.75" y="16.5" />
+    </edge>
+    <edge source="site.moree.strategyPattern.MallardDuck" target="site.moree.strategyPattern.Duck">
+      <point x="34.25" y="-16.5" />
+      <point x="161.37499999999997" y="141.0" />
+      <point x="183.375" y="141.0" />
+      <point x="-21.25" y="16.5" />
+    </edge>
+    <edge source="site.moree.strategyPattern.quack.Squeak" target="site.moree.strategyPattern.quack.QuackBehavior">
+      <point x="0.0" y="-16.5" />
+      <point x="333.125" y="58.0" />
+      <point x="325.5" y="58.0" />
+      <point x="38.0" y="16.5" />
+    </edge>
+    <edge source="site.moree.strategyPattern.MallardDuck" target="site.moree.strategyPattern.fly.FlyWithWings">
+      <point x="-34.25" y="-16.5" />
+      <point x="92.87499999999997" y="141.0" />
+      <point x="71.0" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="site.moree.strategyPattern.ModelDuck" target="site.moree.strategyPattern.quack.Squeak">
+      <point x="32.25" y="-16.5" />
+      <point x="319.75" y="141.0" />
+      <point x="333.125" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="192.0" y="99.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
