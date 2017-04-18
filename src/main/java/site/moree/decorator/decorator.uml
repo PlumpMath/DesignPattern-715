@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>site.moree.decorator</OriginalElement>
+  <nodes>
+    <node x="214.75" y="83.0">site.moree.decorator.Espresso</node>
+    <node x="2.75" y="83.0">site.moree.decorator.CondimentDecorator</node>
+    <node x="106.0" y="166.0">site.moree.decorator.Mocha</node>
+    <node x="0.0" y="166.0">site.moree.decorator.Whip</node>
+    <node x="212.25" y="0.0">site.moree.decorator.Beverage</node>
+    <node x="341.75" y="83.0">site.moree.decorator.HouseBlend</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="site.moree.decorator.CondimentDecorator" target="site.moree.decorator.Beverage">
+      <point x="0.0" y="-16.5" />
+      <point x="98.75" y="58.0" />
+      <point x="230.91666666666666" y="58.0" />
+      <point x="-37.33333333333334" y="16.5" />
+    </edge>
+    <edge source="site.moree.decorator.Espresso" target="site.moree.decorator.Beverage">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="site.moree.decorator.Whip" target="site.moree.decorator.CondimentDecorator">
+      <point x="0.0" y="-16.5" />
+      <point x="43.0" y="141.0" />
+      <point x="50.75" y="141.0" />
+      <point x="-48.0" y="16.5" />
+    </edge>
+    <edge source="site.moree.decorator.HouseBlend" target="site.moree.decorator.Beverage">
+      <point x="0.0" y="-16.5" />
+      <point x="407.75" y="58.0" />
+      <point x="305.58333333333337" y="58.0" />
+      <point x="37.33333333333337" y="16.5" />
+    </edge>
+    <edge source="site.moree.decorator.Mocha" target="site.moree.decorator.CondimentDecorator">
+      <point x="0.0" y="-16.5" />
+      <point x="154.5" y="141.0" />
+      <point x="146.75" y="141.0" />
+      <point x="48.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="237.0" y="229.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

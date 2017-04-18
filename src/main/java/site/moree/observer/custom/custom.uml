@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.moree.observer.custom</OriginalElement>
+  <nodes>
+    <node x="29.125" y="83.0">com.moree.observer.custom.WeatherData</node>
+    <node x="119.875" y="166.0">com.moree.observer.custom.ObserverPattern</node>
+    <node x="284.25" y="0.0">com.moree.observer.custom.DisplayElement</node>
+    <node x="188.125" y="83.0">com.moree.observer.custom.CurrentConditionsDisplay</node>
+    <node x="134.0" y="0.0">com.moree.observer.custom.Observer</node>
+    <node x="0.0" y="0.0">com.moree.observer.custom.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.moree.observer.custom.WeatherData" target="com.moree.observer.custom.Subject">
+      <point x="-34.75" y="-16.5" />
+      <point x="63.875" y="58.0" />
+      <point x="50.0" y="58.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.moree.observer.custom.ObserverPattern" target="com.moree.observer.custom.CurrentConditionsDisplay">
+      <point x="39.5" y="-16.5" />
+      <point x="238.375" y="141.0" />
+      <point x="299.125" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.moree.observer.custom.CurrentConditionsDisplay" target="com.moree.observer.custom.DisplayElement">
+      <point x="55.5" y="-16.5" />
+      <point x="354.625" y="58.0" />
+      <point x="361.25" y="58.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.moree.observer.custom.CurrentConditionsDisplay" target="com.moree.observer.custom.Observer">
+      <point x="-55.5" y="-16.5" />
+      <point x="243.625" y="58.0" />
+      <point x="215.75" y="58.0" />
+      <point x="27.25" y="16.5" />
+    </edge>
+    <edge source="com.moree.observer.custom.ObserverPattern" target="com.moree.observer.custom.WeatherData">
+      <point x="-39.5" y="-16.5" />
+      <point x="159.375" y="141.0" />
+      <point x="98.625" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="com.moree.observer.custom.WeatherData" target="com.moree.observer.custom.Observer">
+      <point x="34.75" y="-16.5" />
+      <point x="133.375" y="58.0" />
+      <point x="161.25" y="58.0" />
+      <point x="-27.25" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="219.5" y="99.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
