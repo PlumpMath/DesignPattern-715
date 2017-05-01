@@ -7,3 +7,6 @@ Turkey --> TurkeyAdapter --> Duck
 
 # 外观模式
 对外提供统一的接口，封装内部的复杂实现；客户端只需要知道外部接口，符合`Least Knowledge`原则
+
+# 关键类
+`TurkeyAdater`是目标类，持有待适配类

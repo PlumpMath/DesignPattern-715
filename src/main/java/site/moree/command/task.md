@@ -8,3 +8,6 @@
 # 联想
 与此对应的是Java的`Executor`-`Runnable`机制，详细的分析可以看这篇
 [Java中的命令模式——Thread，ThreadPoolExecutor和Runnable](http://blog.csdn.net/Zerohuan/article/details/50039005)
+
+# 关键类
+`SimpleControl`持有一个`Command`接口，可以随意切换命令
